@@ -19,9 +19,9 @@ public class Arrays {
         // new empty array of length 7
         weekdays = new String[] { "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag" };
 
-        weekdays[3] = "Dönerstag"; // 4. Stelle manipulieren
+        weekdays[3] = "Dönerstag"; // manipulate 4th element
 
-        String fav = weekdays[5]; // Samstag favorisierter Tag
+        String fav = weekdays[5]; // Samstag fav day
 
         System.out.println(fav);
 
