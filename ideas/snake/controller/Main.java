@@ -1,14 +1,14 @@
-package controller;
+package ideas.snake.controller;
 
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Timer;
 
-import controller.input.Handler;
-import controller.input.ListenerFrame;
-import model.board.Board;
-import model.snake.Head;
-import model.snake.SnakeFactory;
+import ideas.snake.controller.input.Handler;
+import ideas.snake.controller.input.ListenerFrame;
+import ideas.snake.model.board.Board;
+import ideas.snake.model.snake.Head;
+import ideas.snake.model.snake.SnakeFactory;
 
 /**
  * Main class of this project. The program is initialized here

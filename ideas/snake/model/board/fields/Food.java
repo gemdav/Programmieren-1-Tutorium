@@ -1,4 +1,4 @@
-package model.board.fields;
+package ideas.snake.model.board.fields;
 
 /**
  * A food field

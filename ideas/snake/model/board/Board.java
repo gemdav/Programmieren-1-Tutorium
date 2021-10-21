@@ -1,10 +1,10 @@
-package model.board;
+package ideas.snake.model.board;
 
-import helper.Point;
-import model.board.fields.Border;
-import model.board.fields.Empty;
-import model.board.fields.Field;
-import model.board.fields.Food;
+import ideas.snake.helper.Point;
+import ideas.snake.model.board.fields.Border;
+import ideas.snake.model.board.fields.Empty;
+import ideas.snake.model.board.fields.Field;
+import ideas.snake.model.board.fields.Food;
 
 /**
  * The game board the snake is moving on

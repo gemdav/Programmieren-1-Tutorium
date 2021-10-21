@@ -1,0 +1,2 @@
+- pbv vs. pbr
+- string == string false => brainfuck (Vergleich von Referenzdatentypen)

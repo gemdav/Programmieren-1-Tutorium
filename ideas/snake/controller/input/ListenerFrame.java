@@ -1,4 +1,4 @@
-package controller.input;
+package ideas.snake.controller.input;
 
 import javax.swing.JFrame;
 import java.awt.event.KeyAdapter;

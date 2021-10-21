@@ -1,4 +1,4 @@
-package helper;
+package ideas.snake.helper;
 
 /**
  * A helper class containing coordinates

@@ -1,6 +1,6 @@
-package model.snake;
+package ideas.snake.model.snake;
 
-import helper.Point;
+import ideas.snake.helper.Point;
 
 /**
  * A element of the snake

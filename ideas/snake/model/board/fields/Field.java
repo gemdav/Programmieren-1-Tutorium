@@ -1,4 +1,4 @@
-package model.board.fields;
+package ideas.snake.model.board.fields;
 
 /**
  * The interface for the fields on the game board

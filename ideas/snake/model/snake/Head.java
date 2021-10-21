@@ -1,6 +1,6 @@
-package model.snake;
+package ideas.snake.model.snake;
 
-import helper.Point;
+import ideas.snake.helper.Point;
 
 /**
  * The head of the snake, also representing the snake itself as it has
@@ -37,18 +37,18 @@ public class Head extends Element {
         this.getNext().move();
 
         switch (direction) {
-            case UP:
-                this.getPosition().translate(0, -1);
-                break;
-            case DOWN:
-                this.getPosition().translate(0, 1);
-                break;
-            case LEFT:
-                this.getPosition().translate(-1, 0);
-                break;
-            case RIGHT:
-                this.getPosition().translate(1, 0);
-                break;
+        case UP:
+            this.getPosition().translate(0, -1);
+            break;
+        case DOWN:
+            this.getPosition().translate(0, 1);
+            break;
+        case LEFT:
+            this.getPosition().translate(-1, 0);
+            break;
+        case RIGHT:
+            this.getPosition().translate(1, 0);
+            break;
         }
     }
 

@@ -1,6 +1,6 @@
-package model.snake;
+package ideas.snake.model.snake;
 
-import helper.Point;
+import ideas.snake.helper.Point;
 
 /**
  * The tails class of the snake

@@ -1,17 +1,15 @@
-package controller;
-
-import java.util.TimerTask;
-
-import helper.Point;
+package ideas.snake.controller;
 
 import java.util.Random;
+import java.util.TimerTask;
 
-import model.board.Board;
-import model.board.fields.Border;
-import model.board.fields.Empty;
-import model.board.fields.Food;
-import model.snake.Head;
-import view.Printer;
+import ideas.snake.helper.Point;
+import ideas.snake.model.board.Board;
+import ideas.snake.model.board.fields.Border;
+import ideas.snake.model.board.fields.Empty;
+import ideas.snake.model.board.fields.Food;
+import ideas.snake.model.snake.Head;
+import ideas.snake.view.Printer;
 
 /**
  * Implements the core logic of the game. A timer calls the run function at

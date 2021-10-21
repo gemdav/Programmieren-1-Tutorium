@@ -1,11 +1,11 @@
-package controller.input;
+package ideas.snake.controller.input;
 
-import java.util.List;
-import java.util.Arrays;
-import java.util.function.Consumer;
 import java.awt.event.KeyEvent;
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
 
-import model.snake.Head;
+import ideas.snake.model.snake.Head;
 
 /**
  * Key Event Handler.
