@@ -1,4 +1,4 @@
-package solutions.lesson_01_first_steps_with_java.showcase;
+package solutions.lesson_01_first_steps_with_java.showcases;
 
 /**
  * HelloWorld Class
@@ -16,6 +16,8 @@ public class HelloWorld {
 
         String output; // Deklaration
         output = "Hello World!"; // Zuweisung
+        System.out.println(output); // Zugriff
+        output = "Hello Universe!"; // Zuweisung
         System.out.println(output); // Zugriff
 
         System.out.println("Hello World!"); // print to console

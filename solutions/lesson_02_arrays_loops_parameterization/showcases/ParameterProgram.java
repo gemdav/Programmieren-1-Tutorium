@@ -1,4 +1,4 @@
-package solutions.lesson_02_loops_and_functions.showcase;
+package solutions.lesson_02_arrays_loops_parameterization.showcases;
 
 import java.util.Scanner;
 
@@ -16,9 +16,8 @@ public class ParameterProgram {
      */
     public static void main(String[] args) {
 
-        String firstName = args[0];
-        String lastName = args[1];
-        int age = Integer.parseInt(args[2]);
+        String name = args[0];
+        int age = Integer.parseInt(args[1]);
 
         String ageStatus = (age >= 18) ? "volljährig" : "minderjährig";
 
@@ -29,7 +28,7 @@ public class ParameterProgram {
         scanner.close();
 
         if (param.equals("ja") || param.equals("Ja")) {
-            System.out.println("Ich bin " + firstName + " " + lastName + " und " + ageStatus);
+            System.out.println("Ich bin " + name + " und " + ageStatus);
         }
     }
 

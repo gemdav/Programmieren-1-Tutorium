@@ -1,4 +1,4 @@
-package solutions.lesson_02_loops_and_functions.showcase;
+package solutions.lesson_02_arrays_loops_parameterization.showcases;
 
 /**
  * Arrays showcase class
