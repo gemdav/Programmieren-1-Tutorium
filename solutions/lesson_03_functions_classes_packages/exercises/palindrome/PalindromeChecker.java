@@ -1,4 +1,4 @@
-package solutions.lesson_03_classes_functions.exercises.palindrome;
+package solutions.lesson_03_functions_classes_packages.exercises.palindrome;
 
 /**
  * Palindrom cecker class

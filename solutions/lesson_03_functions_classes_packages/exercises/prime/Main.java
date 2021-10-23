@@ -1,4 +1,4 @@
-package solutions.lesson_03_classes_functions.exercises.prime;
+package solutions.lesson_03_functions_classes_packages.exercises.prime;
 
 import java.util.Scanner;
 
