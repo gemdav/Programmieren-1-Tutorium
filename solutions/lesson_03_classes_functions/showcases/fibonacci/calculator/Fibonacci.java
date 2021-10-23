@@ -1,4 +1,4 @@
-package solutions.lesson_03_classes_functions.showcase.fibonacci.calculator;
+package solutions.lesson_03_classes_functions.showcases.fibonacci.calculator;
 
 /**
  * Fibonacci showcase class
@@ -20,8 +20,8 @@ public class Fibonacci {
         int first = 0;
         int second = 1;
         if (printUntil) {
-            System.out.println("0: " + first);
-            System.out.println("1: " + second);
+            printNumber(0, first);
+            printNumber(1, second);
         }
         if (n == 0) {
             return first;
@@ -32,10 +32,17 @@ public class Fibonacci {
             first = second;
             second = tmp + second;
             if (printUntil) {
-                System.out.println(i + ": " + second);
+                printNumber(i, second);
             }
         }
 
         return second;
+    }
+
+    /**
+     * This function does nothing and is only visible within this class
+     */
+    private static void printNumber(int index, int number) {
+        System.out.println(index + ": " + number);
     }
 }

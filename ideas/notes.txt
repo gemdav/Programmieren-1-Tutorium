@@ -1,2 +1,11 @@
 - pbv vs. pbr
 - string == string false => brainfuck (Vergleich von Referenzdatentypen)
+
+    05. Vererbung
+    06. Interfaces, Abstrakte Klassen
+    07. Polymorphismus, equals
+    08. Rekursion
+    09. Rekursion
+    10. Exceptions
+    11. Puffer / Klausur
+    12. Puffer / Klausur
