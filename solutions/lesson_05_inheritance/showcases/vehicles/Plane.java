@@ -1,4 +1,4 @@
-package solutions.lesson_05_inheritance.showcases.vehicle;
+package solutions.lesson_05_inheritance.showcases.vehicles;
 
 public class Plane extends Vehicle {
 
