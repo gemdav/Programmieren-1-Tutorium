@@ -43,6 +43,10 @@ public class Conditions {
             System.out.println("Ich kenne diesen Wochentag nicht.");
             break;
         }
-    }
 
+        // ternary operator
+        int myAge = 21;
+        String ageStatus = myAge >= 18 ? "erwachsen" : "minderjährig";
+        System.out.println("Ich bin " + ageStatus);
+    }
 }
