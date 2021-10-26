@@ -36,7 +36,7 @@ public class NameDatabase {
             for (String name : names) {
                 if (name.equals(query)) {
                     System.out.println("Der Name existiert in dem Datensatz.");
-                    found = false;
+                    found = true;
                     break;
                 }
             }
@@ -54,5 +54,4 @@ public class NameDatabase {
             }
         }
     }
-
 }
