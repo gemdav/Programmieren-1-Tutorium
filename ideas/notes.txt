@@ -1,2 +1,3 @@
-- pbv vs. pbr
-- string == string false => brainfuck (Vergleich von Referenzdatentypen)
+Ideen für die nächsten Semester
+-------------------------------
+- In erster Session kurz Kommandozeilenkommandos ansprechen.
