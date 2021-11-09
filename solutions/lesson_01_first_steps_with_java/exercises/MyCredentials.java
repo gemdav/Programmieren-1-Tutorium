@@ -17,21 +17,8 @@ public class MyCredentials {
         // my credentials
         String name = "David";
         int age = 21;
-        boolean presentNextWeek = true;
+        String studies = "Wirtschaftsinformatik";
 
-        String ageStatus;
-        if (age < 18) {
-            ageStatus = "minderjährig ";
-        } else if (age < 67) {
-            ageStatus = "volljährig ";
-        } else {
-            ageStatus = "im Ruhestand ";
-        }
-
-        String nextWeekDenial = presentNextWeek ? "" : "nicht ";
-
-        System.out.println("Ich heiße " + name + ", bin " + ageStatus + "und komme nächste Woche " + nextWeekDenial
-                + "wieder zum Tutorium.");
+        System.out.println("Ich heiße " + name + ", bin " + age + " Jahr alt und studiere " + studies);
     }
-
 }
