@@ -25,7 +25,7 @@ public class NameDatabase {
         while (true) {
             // take query
             System.out.print("Bitte gib den Namen ein: ");
-            String query = scanner.nextLine();
+            String query = scanner.next();
 
             if (query.equals("quit")) {
                 scanner.close();
