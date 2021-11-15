@@ -1,4 +1,4 @@
-package src.lesson_10_exceptions;
+package src.lesson_11_exceptions;
 
 /**
  * Divider class.

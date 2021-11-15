@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import solutions.lesson_10_recursion_2.binaryTree.Node;
-
 /**
  * TreeLoader
  * 

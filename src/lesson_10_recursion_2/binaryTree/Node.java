@@ -43,6 +43,24 @@ public class Node {
     }
 
     /**
+     * Getter for the left child
+     * 
+     * @return the left child
+     */
+    public Node getLhc() {
+        return lhc;
+    }
+
+    /**
+     * Getter for the right child
+     * 
+     * @return the right child
+     */
+    public Node getRhc() {
+        return rhc;
+    }
+
+    /**
      * Inserts a Node at the correct position in the subtree
      * 
      * @param value the value of the new node
@@ -95,6 +113,16 @@ public class Node {
     }
 
     /**
+     * Gets the amount of nodes in the subtree (including the root of the subtree)
+     * 
+     * @return the amount of nodes in the subtree
+     */
+    public int nodeAmount() {
+        // TODO: implement
+        return 0;
+    }
+
+    /**
      * Calculates the height of the subtree. The height of a subtree equals the
      * length of its longest path.
      * 
@@ -114,13 +142,15 @@ public class Node {
     }
 
     /**
-     * Check if the subtree is degenerate. A substree is degenerate if theres no
-     * Node in the subtree that has two children.
+     * Check if the subtree is degenerate. A substree is degenerate iff theres no
+     * Node in the subtree that has two children. Alternative definition: A subtree
+     * is degenerate iff it has n nodes and has a height of n - 1 (n ∈ ℕ). An empty
+     * tree is not degenerate.
      * 
      * @return true if the subtree is degenrate, fals if not
      */
     public boolean isDegenerate() {
         // TODO: implement
-        return false;
+        return true;
     }
 }

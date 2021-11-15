@@ -44,6 +44,7 @@ public class Circle {
         Circle c3 = new Circle(1.0);
         System.out.println(c1 == c2); // expected: true
         System.out.println(c1 == c3); // expected: false
+
         System.out.println(c1.equals(c3)); // expected: true if equals method was correctly overridden
 
         // toString showcase
