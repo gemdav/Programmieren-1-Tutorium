@@ -14,11 +14,7 @@ public class NameDatabase {
      * 
      * @param args command line arguments
      */
-    public static void main(String[] args) {
-
-        // take command line arguments initially
-        String[] names = args;
-
+    public static void main(String[] names) {
         // init scanner
         Scanner scanner = new Scanner(System.in);
 
