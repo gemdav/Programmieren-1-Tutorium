@@ -2,3 +2,4 @@ Ideen für die nächsten Semester
 -------------------------------
 - In erster Session kurz Kommandozeilenkommandos ansprechen.
 - Anfang langsamer, Bedingungen einzelne Veranstaltung, Hausaufgaben starten auch spät.
+- Parsing
