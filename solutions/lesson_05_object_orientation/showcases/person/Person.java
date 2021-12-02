@@ -45,6 +45,13 @@ public class Person {
         this.age++;
     }
 
+    /**
+     * prints the name of the person to stdout
+     */
+    public void sayName() {
+        System.out.println("My name is" + this.firstName + " " + this.lastName);
+    }
+
     // Functions
     /**
      * Getter for the person amount class variable

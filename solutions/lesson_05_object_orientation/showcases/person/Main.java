@@ -14,8 +14,12 @@ public class Main {
      */
     public static void main(String[] args) {
 
+        // Person emptyReference = null;
+        // emptyReference.celebrateBirthday(); // NullpointerException
+
         Person david = new Person("David", "Gemen", 21);
         david.celebrateBirthday();
+        System.out.println(david.getFirstName()); // David
         System.out.println(david.getAge()); // 22
 
         System.out.println(Person.getPersonAmount()); // 1
