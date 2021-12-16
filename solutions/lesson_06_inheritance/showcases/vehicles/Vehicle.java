@@ -20,13 +20,13 @@ public class Vehicle {
         this.color = color;
     }
 
+    // Methods of the vehicle
     /**
      * Calculates the distance between this and another vehicle
      * 
      * @param other the other vehicle
      * @return the distance in kilometers
      */
-    // Methods of the vehicle
     public double distanceTo(Vehicle other) {
         return Math.sqrt(Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2));
     }
