@@ -7,6 +7,7 @@ package solutions.lesson_07_abstract_classes_interfaces.showcases.shapes;
  */
 public abstract class Shape {
 
+    // Position of the shape
     private double x;
     private double y;
 
