@@ -123,7 +123,6 @@ public class Node {
     public int nodeAmount() {
         int leftHeight = this.lhc == null ? 0 : this.lhc.nodeAmount();
         int rightHeight = this.rhc == null ? 0 : this.rhc.nodeAmount();
-        ;
         return leftHeight + rightHeight + 1;
     }
 
