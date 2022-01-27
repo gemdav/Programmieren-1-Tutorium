@@ -45,7 +45,7 @@ public class BinaryTree {
             syserr(">> maximum << does not work properly.");
         }
         try {
-            assert tree.minimum() == 1;
+            assert tree.minimum() == 0;
             assert tree.getRhc().minimum() == 23;
             assert tree.getRhc().getRhc().minimum() == 35;
         } catch (AssertionError ae) {

@@ -112,7 +112,7 @@ public class Node {
      * @return the minimum value
      */
     public int minimum() {
-        return this.rhc == null ? this.value : this.lhc.minimum();
+        return this.lhc == null ? this.value : this.lhc.minimum();
     }
 
     /**
