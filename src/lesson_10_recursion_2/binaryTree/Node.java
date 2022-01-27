@@ -144,7 +144,7 @@ public class Node {
     /**
      * Check if the subtree is degenerate. A substree is degenerate iff theres no
      * Node in the subtree that has two children. Alternative definition: A subtree
-     * is degenerate iff it has n nodes and has a height of n - 1 (n ∈ ℕ). An empty
+     * is degenerate iff it has n nodes and has a height of n (n ∈ ℕ). An empty
      * tree is not degenerate.
      * 
      * @return true if the subtree is degenrate, fals if not
