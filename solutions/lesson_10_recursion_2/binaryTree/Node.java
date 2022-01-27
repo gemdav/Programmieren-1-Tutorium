@@ -121,9 +121,9 @@ public class Node {
      * @return the amount of nodes in the subtree
      */
     public int nodeAmount() {
-        int leftHeight = this.lhc == null ? 0 : this.lhc.nodeAmount();
-        int rightHeight = this.rhc == null ? 0 : this.rhc.nodeAmount();
-        return leftHeight + rightHeight + 1;
+        int leftAmount = this.lhc == null ? 0 : this.lhc.nodeAmount();
+        int rightAmount = this.rhc == null ? 0 : this.rhc.nodeAmount();
+        return leftAmount + rightAmount + 1;
     }
 
     /**
