@@ -13,7 +13,7 @@ public class Decompressor {
      * @param args command line arguments
      */
     public static void main(String[] args) {
-        String[] compressedStrings = { "4aSv2c1s9i", "6y7v3k9m", "0s4b", "1a1b1c1d" };
+        String[] compressedStrings = { "4a5v2c1s9i", "6y7v3k9m", "0s4b", "1a1b1c1d" };
 
         String compressed = "";
         try {
