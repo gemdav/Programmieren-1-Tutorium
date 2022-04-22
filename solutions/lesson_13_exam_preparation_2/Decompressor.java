@@ -1,5 +1,3 @@
-package solutions.lesson_13_exam_preparation_2;
-
 /**
  * Decompressor
  * 

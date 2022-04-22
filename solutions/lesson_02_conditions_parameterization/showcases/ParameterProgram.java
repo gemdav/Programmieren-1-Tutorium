@@ -1,5 +1,3 @@
-package solutions.lesson_02_conditions_parameterization.showcases;
-
 import java.util.Scanner;
 
 /**

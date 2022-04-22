@@ -1,5 +1,3 @@
-package solutions.lesson_05_object_orientation.exercises.circle;
-
 /**
  * Main class for Circle class
  * 

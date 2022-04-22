@@ -1,5 +1,3 @@
-package solutions.lesson_07_abstract_classes_interfaces.exercises.bankAccounts;
-
 /**
  * Lootable interface. Classes that implement this interface must have the loot
  * method

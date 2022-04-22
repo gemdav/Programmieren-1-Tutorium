@@ -1,4 +1,4 @@
-package solutions.lesson_04_functions_classes_packages.exercises.prime;
+package prime;
 
 /**
  * Class to check whether s number is a prime number.

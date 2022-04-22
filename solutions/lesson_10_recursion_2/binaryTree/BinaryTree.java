@@ -1,5 +1,3 @@
-package solutions.lesson_10_recursion_2.binaryTree;
-
 /**
  * BinaryTree
  * 

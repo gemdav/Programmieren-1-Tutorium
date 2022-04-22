@@ -1,5 +1,3 @@
-package solutions.lesson_07_abstract_classes_interfaces.exercises.bankAccounts;
-
 /**
  * Main class with main function to test the functionality
  * 

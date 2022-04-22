@@ -1,5 +1,3 @@
-package solutions.lesson_02_conditions_parameterization.showcases;
-
 /**
  * Conditions showcase class
  */
@@ -27,21 +25,21 @@ public class Conditions {
         // switch-case
         String day = "wednesday";
         switch (day) {
-        case "wednesday":
-            System.out.println("Ist zwar Bergfest, aber ...");
-        case "sunday":
-        case "monday":
-        case "tuesday":
-        case "thursday":
-            System.out.println("Nee man, muss morgen arbeiten.");
-            break;
-        case "friday":
-        case "saturday":
-            System.out.println("JAAA MAN! WOCHENENDE! SAUFEN! GEIL!");
-            break;
-        default:
-            System.out.println("Ich kenne diesen Wochentag nicht.");
-            break;
+            case "wednesday":
+                System.out.println("Ist zwar Bergfest, aber ...");
+            case "sunday":
+            case "monday":
+            case "tuesday":
+            case "thursday":
+                System.out.println("Nee man, muss morgen arbeiten.");
+                break;
+            case "friday":
+            case "saturday":
+                System.out.println("JAAA MAN! WOCHENENDE! SAUFEN! GEIL!");
+                break;
+            default:
+                System.out.println("Ich kenne diesen Wochentag nicht.");
+                break;
         }
 
         // ternary operator

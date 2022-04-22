@@ -1,5 +1,3 @@
-package solutions.lesson_10_recursion_2.binaryTree;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

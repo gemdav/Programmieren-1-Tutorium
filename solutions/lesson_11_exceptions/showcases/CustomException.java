@@ -1,5 +1,3 @@
-package solutions.lesson_11_exceptions.showcases;
-
 /**
  * My Custom Exception class
  * 

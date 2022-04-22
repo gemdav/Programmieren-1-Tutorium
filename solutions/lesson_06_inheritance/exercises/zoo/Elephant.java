@@ -1,5 +1,3 @@
-package solutions.lesson_06_inheritance.exercises.zoo;
-
 /**
  * Elephant
  * 

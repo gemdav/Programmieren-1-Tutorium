@@ -1,5 +1,3 @@
-package solutions.lesson_05_object_orientation.showcases.person;
-
 /**
  * Person showcase class
  * 

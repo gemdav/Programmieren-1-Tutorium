@@ -1,6 +1,6 @@
-package solutions.lesson_04_functions_classes_packages.showcases.fibonacci;
+package fibonacci;
 
-import solutions.lesson_04_functions_classes_packages.showcases.fibonacci.calculator.Fibonacci;
+import fibonacci.calculator.Fibonacci;
 
 /**
  * Fibonacci showcase main class

@@ -1,4 +1,4 @@
-package solutions.lesson_04_functions_classes_packages.showcases.fibonacci.calculator;
+package fibonacci.calculator;
 
 /**
  * Fibonacci showcase class

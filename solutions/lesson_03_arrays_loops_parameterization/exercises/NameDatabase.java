@@ -1,5 +1,3 @@
-package solutions.lesson_03_arrays_loops_parameterization.exercises;
-
 import java.util.Scanner;
 
 /**

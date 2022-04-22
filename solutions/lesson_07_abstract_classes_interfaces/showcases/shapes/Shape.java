@@ -1,5 +1,3 @@
-package solutions.lesson_07_abstract_classes_interfaces.showcases.shapes;
-
 /**
  * Abstract Shape class for showcase
  * 

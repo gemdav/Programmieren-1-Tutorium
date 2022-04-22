@@ -1,5 +1,3 @@
-package solutions.lesson_08_polymorphism_equals_toString_pbv_pbr.showcases;
-
 /**
  * This class shows the difference between "Pass by Value" and "Pass by
  * Reference". In Java all objects are always passed by reference. If only the

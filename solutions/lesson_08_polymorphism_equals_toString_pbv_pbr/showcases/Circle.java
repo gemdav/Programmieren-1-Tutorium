@@ -1,5 +1,3 @@
-package solutions.lesson_08_polymorphism_equals_toString_pbv_pbr.showcases;
-
 /**
  * Circle class
  * 

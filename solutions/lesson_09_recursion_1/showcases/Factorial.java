@@ -1,5 +1,3 @@
-package solutions.lesson_09_recursion_1.showcases;
-
 /**
  * Factorial calculator
  * 

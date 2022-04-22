@@ -1,5 +1,8 @@
-package solutions.lesson_06_inheritance.showcases.vehicles;
-
+/**
+ * Vehicle class
+ * 
+ * @author David Gemen
+ */
 public class Vehicle {
 
     // Attributes of the Vehicle

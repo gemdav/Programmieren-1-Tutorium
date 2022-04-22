@@ -1,5 +1,8 @@
-package solutions.lesson_06_inheritance.showcases.vehicles;
-
+/**
+ * Plane class
+ * 
+ * @author David Gemen
+ */
 public class Plane extends Vehicle {
 
     // Attributes of the Plane

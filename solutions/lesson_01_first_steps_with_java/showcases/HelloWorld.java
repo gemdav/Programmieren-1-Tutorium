@@ -1,5 +1,3 @@
-package solutions.lesson_01_first_steps_with_java.showcases;
-
 /**
  * HelloWorld Class
  * 

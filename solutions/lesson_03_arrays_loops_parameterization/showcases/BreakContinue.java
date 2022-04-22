@@ -1,5 +1,3 @@
-package solutions.lesson_03_arrays_loops_parameterization.showcases;
-
 /**
  * Break and continue showcase class
  * 

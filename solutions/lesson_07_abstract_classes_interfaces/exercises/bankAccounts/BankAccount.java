@@ -1,5 +1,3 @@
-package solutions.lesson_07_abstract_classes_interfaces.exercises.bankAccounts;
-
 /**
  * Bank Account class
  * 
