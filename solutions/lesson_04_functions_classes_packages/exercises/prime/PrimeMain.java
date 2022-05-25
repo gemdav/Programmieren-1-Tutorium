@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 
  * @author David Gemen
  */
-public class Main {
+public class PrimeMain {
 
     /**
      * main function, program starts here.

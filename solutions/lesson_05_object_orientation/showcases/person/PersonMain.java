@@ -3,7 +3,7 @@
  * 
  * @author David Gemen
  */
-public class Main {
+public class PersonMain {
 
     /**
      * Main function, program starts here

@@ -5,7 +5,7 @@ package palindrome;
  * 
  * @author David Gemen
  */
-public class Main {
+public class PalindromeMain {
 
     /**
      * main function, program starts here.
