@@ -17,7 +17,7 @@ public class PalindromeMain {
         String term = args[0];
         term = term.toLowerCase(); // optional
 
-        if (PalindromeChecker.check(term)) {
+        if (PalindromeChecker.isPalindrome(term)) {
             System.out.println("Der String ist ein Palindrom");
         } else {
             System.out.println("Der String ist kein Palindrom");

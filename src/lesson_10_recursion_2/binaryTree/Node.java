@@ -88,8 +88,21 @@ public class Node {
      * @return true if the value exists, false if not
      */
     public boolean exists(int value) {
-        // TODO: implement
-        return false;
+        if (value == this.value) {
+            return true;
+        } else if (value < this.value) {
+            if (this.lhc == null) {
+                return false;
+            } else {
+                return this.lhc.exists(value);
+            }
+        } else {
+            if (this.rhc == null) {
+                return false;
+            } else {
+                return this.rhc.exists(value);
+            }
+        }
     }
 
     /**
@@ -98,8 +111,7 @@ public class Node {
      * @return the maximum value
      */
     public int maximum() {
-        // TODO: implement
-        return 0;
+        return this.rhc == null ? this.value : this.rhc.maximum();
     }
 
     /**
@@ -108,8 +120,7 @@ public class Node {
      * @return the minimum value
      */
     public int minimum() {
-        // TODO: implement
-        return 0;
+        return this.lhc == null ? this.value : this.lhc.minimum();
     }
 
     /**

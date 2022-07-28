@@ -13,7 +13,7 @@ public class PalindromeChecker {
      * @param term the string to check
      * @return true if the term is a palindrome, false if not
      */
-    public static boolean check(String term) {
+    public static boolean isPalindrome(String term) {
         int len = term.length();
         for (int i = 0; i < len / 2; i++) {
             if (term.charAt(i) != term.charAt(len - 1 - i)) {

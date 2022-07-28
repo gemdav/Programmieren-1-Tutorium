@@ -22,7 +22,7 @@ public class PrimeMain {
         int number = scanner.nextInt();
         scanner.close();
 
-        if (PrimeChecker.check(number)) {
+        if (PrimeChecker.isPrime(number)) {
             System.out.println("Die Zahl ist eine Primzahl");
         } else {
             System.out.println("Die Zahl ist keine Primzahl");

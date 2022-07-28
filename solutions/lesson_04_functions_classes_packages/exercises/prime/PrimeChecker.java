@@ -13,7 +13,7 @@ public class PrimeChecker {
      * @param number the number to check
      * @return true if the number is a prime, false if not
      */
-    public static boolean check(int number) {
+    public static boolean isPrime(int number) {
         if (number < 2) {
             return false;
         }

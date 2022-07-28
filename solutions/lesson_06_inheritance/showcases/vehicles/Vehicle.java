@@ -13,9 +13,9 @@ public class Vehicle {
     /**
      * Constructor of this class
      * 
-     * @param tireAmount        the amount of tires this vehicle has
-     * @param color             the color of the vehicle
-     * @param passengerCapacity the amount of passengers the vehicle can carry
+     * @param x     the latitude of the vehicle
+     * @param y     the longitude of the vehicle
+     * @param color the color of the vehicle
      */
     public Vehicle(double x, double y, String color) {
         this.x = x;
@@ -28,7 +28,7 @@ public class Vehicle {
      * Calculates the distance between this and another vehicle
      * 
      * @param other the other vehicle
-     * @return the distance in kilometers
+     * @return the distance
      */
     public double distanceTo(Vehicle other) {
         return Math.sqrt(Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2));

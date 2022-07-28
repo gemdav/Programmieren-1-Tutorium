@@ -6,21 +6,21 @@
 public class Plane extends Vehicle {
 
     // Attributes of the Plane
-    private double altitude;
+    private double maxAltitude;
     private String airline;
 
     /**
      * Constructor of this class
      * 
-     * @param x        the x coordinate position
-     * @param y        the y coordinate position
-     * @param color    the color of this plane
-     * @param altitude the maximum altitude of this plane
-     * @param airline  the airline this plane belongs to
+     * @param x           the x coordinate position
+     * @param y           the y coordinate position
+     * @param color       the color of this plane
+     * @param maxAltitude the maximum altitude of this plane
+     * @param airline     the airline this plane belongs to
      */
     public Plane(double x, double y, String color, double maxAltitude, String airline) {
         super(x, y, color);
-        this.altitude = maxAltitude;
+        this.maxAltitude = maxAltitude;
         this.airline = airline;
     }
 
@@ -29,7 +29,7 @@ public class Plane extends Vehicle {
      * Makes a print to the console with some cabin crew speech stuff
      */
     public void cabinCrewSpeech() {
-        System.out.println("This is airline " + airline + ". We are now at " + altitude + " altitude");
+        System.out.println("This is airline " + airline + ".");
     }
 
     @Override
