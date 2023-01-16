@@ -5,7 +5,7 @@
  */
 public class BinaryTree {
 
-    private static final String FILE = "./src/lesson_10_recursion_2/binaryTree/nodes.txt";
+    private static final String FILE = "./nodes.txt";
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_RED = "\u001B[31m";
