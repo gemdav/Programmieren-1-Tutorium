@@ -14,9 +14,9 @@ public class MyCredentials {
 
         // my credentials
         String name = "David";
-        int age = 21;
+        int age = 22;
         String studies = "Wirtschaftsinformatik";
 
-        System.out.println("Ich heiße " + name + ", bin " + age + " Jahr alt und studiere " + studies);
+        System.out.println("Ich heiße " + name + ", bin " + age + " Jahre alt und studiere " + studies + ".");
     }
 }

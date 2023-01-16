@@ -11,34 +11,40 @@ public class Conditions {
     public static void main(String[] args) {
 
         // if-else
-        boolean dumbOpinion = 1 > 2;
-        char xChar = 'x';
-        boolean cleverOpinion = xChar == 'x';
-        if (dumbOpinion) {
-            System.out.println("dumbOpinion ist richtig!");
-        } else if (cleverOpinion) {
-            System.out.println("cleverOpinion ist richtig!");
+        int x = 42;
+        if (x == 42) {
+            System.out.println("x ist 42!");
+        } else if (x < 42) {
+            System.out.println("x ist kleiner als 42!");
         } else {
-            System.out.println("Keine Meinung ist richtig");
+            System.out.println("Hmmmm");
         }
 
         // switch-case
-        String day = "wednesday";
-        switch (day) {
-            case "wednesday":
-                System.out.println("Ist zwar Bergfest, aber ...");
-            case "sunday":
-            case "monday":
-            case "tuesday":
-            case "thursday":
-                System.out.println("Nee man, muss morgen arbeiten.");
+        String month = "may";
+        switch (month) {
+            case "schrodingersMonth":
+                System.out.println("Monat hat 30 Tage!");
+            case "january":
+            case "march":
+            case "may":
+            case "july":
+            case "august":
+            case "october":
+            case "december":
+                System.out.println("Monat hat 31 Tage!");
                 break;
-            case "friday":
-            case "saturday":
-                System.out.println("JAAA MAN! WOCHENENDE! SAUFEN! GEIL!");
+            case "april":
+            case "june":
+            case "september":
+            case "november":
+                System.out.println("Monat hat 30 Tage!");
+                break;
+            case "february":
+                System.out.println("Monat hat 28 Tage!");
                 break;
             default:
-                System.out.println("Ich kenne diesen Wochentag nicht.");
+                System.out.println("Ich kenne diesen Monat nicht.");
                 break;
         }
 

@@ -1,5 +1,3 @@
-package src.lesson_10_recursion_2.binaryTree;
-
 /**
  * Node Class
  * 
@@ -88,21 +86,8 @@ public class Node {
      * @return true if the value exists, false if not
      */
     public boolean exists(int value) {
-        if (value == this.value) {
-            return true;
-        } else if (value < this.value) {
-            if (this.lhc == null) {
-                return false;
-            } else {
-                return this.lhc.exists(value);
-            }
-        } else {
-            if (this.rhc == null) {
-                return false;
-            } else {
-                return this.rhc.exists(value);
-            }
-        }
+        // TODO: implement
+        return true;
     }
 
     /**
@@ -111,7 +96,8 @@ public class Node {
      * @return the maximum value
      */
     public int maximum() {
-        return this.rhc == null ? this.value : this.rhc.maximum();
+        // TODO: implement
+        return 0;
     }
 
     /**
@@ -120,7 +106,8 @@ public class Node {
      * @return the minimum value
      */
     public int minimum() {
-        return this.lhc == null ? this.value : this.lhc.minimum();
+        // TODO: implement
+        return 0;
     }
 
     /**

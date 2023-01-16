@@ -6,7 +6,7 @@
 public class Plane extends Vehicle {
 
     // Attributes of the Plane
-    private double maxAltitude;
+    private double altitude;
     private String airline;
 
     /**
@@ -15,12 +15,12 @@ public class Plane extends Vehicle {
      * @param x           the x coordinate position
      * @param y           the y coordinate position
      * @param color       the color of this plane
-     * @param maxAltitude the maximum altitude of this plane
+     * @param altitude the  altitude of this plane
      * @param airline     the airline this plane belongs to
      */
-    public Plane(double x, double y, String color, double maxAltitude, String airline) {
+    public Plane(double x, double y, String color, double altitude, String airline) {
         super(x, y, color);
-        this.maxAltitude = maxAltitude;
+        this.altitude = altitude;
         this.airline = airline;
     }
 
