@@ -1,0 +1,1 @@
+class StackEmptyException ________________ Exception { }

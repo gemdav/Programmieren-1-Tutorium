@@ -6,12 +6,6 @@ import calculator.Calculator;
  * @author David Gemen
  */
 public class Main {
-
-    /**
-     * Main function, programs entry pouint
-     * 
-     * @param args command line arguments
-     */
     public static void main(String[] args) {
         int base = 2;
         int exponent = 10;
@@ -19,3 +13,4 @@ public class Main {
         System.out.println( base + " hoch " + exponent + " ist " + power);
     }
 }
+

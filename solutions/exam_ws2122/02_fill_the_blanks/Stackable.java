@@ -1,0 +1,3 @@
+interface Stackable {
+    String getNumberAndName();
+}
