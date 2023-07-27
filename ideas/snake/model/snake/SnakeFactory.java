@@ -1,6 +1,6 @@
-package ideas.snake.model.snake;
+package model.snake;
 
-import ideas.snake.helper.Point;
+import helper.Point;
 
 /**
  * A factory class to create snakes of any length

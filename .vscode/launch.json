@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Syntax",
+            "request": "launch",
+            "mainClass": "Syntax",
+            "projectName": "programmieren-1-tutorium-tutoren_a88adabc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "programmieren-1-tutorium-tutoren_a88adabc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci2",
+            "request": "launch",
+            "mainClass": "Fibonacci2",
+            "projectName": "programmieren-1-tutorium-tutoren_a88adabc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "programmieren-1-tutorium-tutoren_a88adabc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "fibonacci.Main",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Decompressor",
+            "request": "launch",
+            "mainClass": "solutions.lesson_13_exam_preparation_2.Decompressor",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "src.lesson_10_recursion_2.binaryTree.BinaryTree",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "delete_me.Main",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "solutions.lesson_10_recursion_2.binaryTree.BinaryTree",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakContinue",
+            "request": "launch",
+            "mainClass": "solutions.lesson_03_arrays_loops_parameterization.showcases.BreakContinue",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataTypes",
+            "request": "launch",
+            "mainClass": "solutions.lesson_01_first_steps_with_java.showcases.DataTypes",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bouncer",
+            "request": "launch",
+            "mainClass": "solutions.lesson_02_conditions_parameterization.exercises.Bouncer",
+            "projectName": "programmieren-1-tutorium-tutoren_338c64af"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

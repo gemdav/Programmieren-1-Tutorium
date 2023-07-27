@@ -15,7 +15,8 @@ public class PersonMain {
         // Person emptyReference = null;
         // emptyReference.celebrateBirthday(); // NullpointerException
 
-        Person david = new Person("David", "Gemen", 21);
+        Person david = new Person("David", "Gemen", 23);
+
         david.celebrateBirthday();
         System.out.println(david.getFirstName()); // David
         System.out.println(david.getAge()); // 22

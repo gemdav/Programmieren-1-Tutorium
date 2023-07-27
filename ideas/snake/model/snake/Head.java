@@ -1,6 +1,6 @@
-package ideas.snake.model.snake;
+package model.snake;
 
-import ideas.snake.helper.Point;
+import helper.Point;
 
 /**
  * The head of the snake, also representing the snake itself as it has

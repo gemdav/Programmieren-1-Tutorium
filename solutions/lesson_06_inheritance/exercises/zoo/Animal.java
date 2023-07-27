@@ -23,6 +23,13 @@ public class Animal {
     }
 
     /**
+     * Animal constructor
+     */
+    public Animal() {
+        animalAmount++;
+    }
+
+    /**
      * Print animals credentials
      */
     public void sayCredentials() {

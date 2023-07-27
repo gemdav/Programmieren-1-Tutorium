@@ -1,15 +1,15 @@
-package ideas.snake.controller;
+package controller;
 
 import java.util.Random;
 import java.util.TimerTask;
 
-import ideas.snake.helper.Point;
-import ideas.snake.model.board.Board;
-import ideas.snake.model.board.fields.Border;
-import ideas.snake.model.board.fields.Empty;
-import ideas.snake.model.board.fields.Food;
-import ideas.snake.model.snake.Head;
-import ideas.snake.view.Printer;
+import helper.Point;
+import model.board.Board;
+import model.board.fields.Border;
+import model.board.fields.Empty;
+import model.board.fields.Food;
+import model.snake.Head;
+import view.Printer;
 
 /**
  * Implements the core logic of the game. A timer calls the run function at
@@ -54,9 +54,11 @@ class Controller extends TimerTask {
         }
         // create array that contains all possible positions
         Point[] noSnakeAndEmpty = new Point[counter];
+        counter = 0;
         for (int i = 0; i < empty.length; i++) {
             if (empty[i] != null) {
                 noSnakeAndEmpty[counter] = empty[i];
+                counter++;
             }
         }
         // get random field out of those that are left

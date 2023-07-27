@@ -1,4 +1,4 @@
-package ideas.snake.model.board.fields;
+package model.board.fields;
 
 /**
  * A border field

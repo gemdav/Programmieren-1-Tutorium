@@ -11,7 +11,7 @@ public class Fibonacci {
      * @param args command line arguments
      */
     public static void main(String args[]) {
-        int n = 9;
+        int n = Integer.parseInt(args[0]);
         System.out.println(fibonacci(n));
     }
 

@@ -1,9 +1,9 @@
-package ideas.snake.view;
+package view;
 
-import ideas.snake.helper.Point;
-import ideas.snake.model.board.Board;
-import ideas.snake.model.snake.Element;
-import ideas.snake.model.snake.Head;
+import helper.Point;
+import model.board.Board;
+import model.snake.Element;
+import model.snake.Head;
 
 /**
  * The view component of the project, visualizing the game
