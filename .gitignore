@@ -1,0 +1,8 @@
+*.class
+bin/
+obj/
+.vscode/
+.idea/
+.vs/
+Properties/
+*.jar
