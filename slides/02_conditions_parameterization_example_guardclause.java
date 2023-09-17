@@ -34,13 +34,20 @@ public class HelloWorld
         String password = Eingabe();
         User user = GetUserByName(username);
 
-        if (user == null) throw new Exception("User didnt exist");
-        if (password == null) throw new Exception("User didnt enter a password");
-        if (user.Password == password) throw new Exception("Password is not correct");
-        if (user.IsActive) throw new Exception("User ist gesperrt");
+        if (user == null) {
+            throw new Exception("User didnt exist");
+        }
+        if (password == null) {
+            throw new Exception("User didnt enter a password");
+        }
+        if (user.Password == password) {
+            throw new Exception("Password is not correct");
+        }
+        if (user.IsActive) {
+            throw new Exception("User ist gesperrt");
+        }
 
         boolean isloginSucessfuly = true;
-
         return isloginSucessfuly;
     }
 
@@ -85,7 +92,9 @@ public class HelloWorld
         String password = Eingabe();
         User user = GetUserByName(username);
 
-        if (user == null) return PrintError("User didnt exist");
+        if (user == null) {
+            return PrintError("User didnt exist");
+        }
         if (password == null) return PrintError("User didnt enter a password");
         if (user.Password == password) return PrintError("Password is not correct");
         if (user.IsActive) return PrintError("User ist gesperrt");
