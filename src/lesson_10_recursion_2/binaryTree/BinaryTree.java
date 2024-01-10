@@ -5,10 +5,11 @@
  */
 public class BinaryTree {
 
-    private static final String FILE = "./nodes.txt";
+    private static final String FILE = "nodes.txt";
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
 
     /**
      * Main function, program starts here
@@ -32,6 +33,7 @@ public class BinaryTree {
             assert !tree.exists(33);
             assert tree.exists(40);
             assert !tree.getLhc().exists(40);
+            syssucc(">> exists << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> exists << does not work properly.");
         }
@@ -39,6 +41,7 @@ public class BinaryTree {
             assert tree.maximum() == 40;
             assert tree.getLhc().maximum() == 19;
             assert tree.getLhc().getLhc().maximum() == 4;
+            syssucc(">> maximum << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> maximum << does not work properly.");
         }
@@ -46,6 +49,7 @@ public class BinaryTree {
             assert tree.minimum() == 0;
             assert tree.getRhc().minimum() == 23;
             assert tree.getRhc().getRhc().minimum() == 35;
+            syssucc(">> minimum << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> minimum << does not work properly.");
         }
@@ -54,6 +58,7 @@ public class BinaryTree {
             assert tree.getLhc().nodeAmount() == 8;
             assert tree.getRhc().nodeAmount() == 7;
             assert tree.getRhc().getLhc().nodeAmount() == 3;
+            syssucc(">> nodeAmount << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> nodeAmount << does not work properly.");
         }
@@ -61,6 +66,7 @@ public class BinaryTree {
             assert tree.height() == 5;
             assert tree.getLhc().height() == 4;
             assert tree.getRhc().height() == 3;
+            syssucc(">> height << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> height << does not work properly.");
         }
@@ -68,6 +74,7 @@ public class BinaryTree {
             assert !tree.isDegenerate();
             assert new Node(0, null, null).isDegenerate();
             assert new Node(0, new Node(0, new Node(0, null, null), null), null).isDegenerate();
+            syssucc(">> isDegenerate << does work properly.");
         } catch (AssertionError ae) {
             syserr(">> isDegenerate << does not work properly.");
         }
@@ -82,5 +89,14 @@ public class BinaryTree {
      */
     private static void syserr(String out) {
         System.err.println(ANSI_RED + out + ANSI_RESET);
+    }
+
+        /**
+     * Print to console in green color
+     * 
+     * @param out the string to be printed
+     */
+    private static void syssucc(String out) {
+        System.err.println(ANSI_GREEN + out + ANSI_RESET);
     }
 }

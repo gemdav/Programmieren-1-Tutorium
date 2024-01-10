@@ -19,6 +19,10 @@ public class Elephant extends Animal {
         this.continent = continent;
     }
 
+    public Elephant() {
+        super();
+    }
+
     /**
      * say Elephant credentials
      */
