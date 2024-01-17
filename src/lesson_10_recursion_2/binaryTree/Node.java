@@ -145,7 +145,7 @@ public class Node {
      * is degenerate iff it has n nodes and has a height of n (n ∈ ℕ). An empty
      * tree is not degenerate.
      * 
-     * @return true if the subtree is degenrate, fals if not
+     * @return true if the subtree is degenrate, false if not
      */
     public boolean isDegenerate() {
         // TODO: implement
